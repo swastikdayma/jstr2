@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p id="demo"></p>
+
+<script>
+let string = "Please locate where 'locate' occurs!";
+let index = string.lastIndexOf("locate");
+document.getElementById("demo").innerHTML = index; 
+</script> -->
+
+<!-- <p id="demo"></p>
+
+<script>
+let text = "The rain in spain stays mainly in the plain";
+const myArr = text.match("ain");
+document.getElementById("demo").innerHTML = myArr.length + " " + myArr;
+</script> -->
+
+<p id="demo"></p>
+
+<script>
+let text = "I love cats. Cats are very easy to love. Cats are very popular."
+const iterator = text.matchAll("Cats");
+
+document.getElementById("demo").innerHTML = Array.from(iterator);
+</script>
+</body>
+</html>
